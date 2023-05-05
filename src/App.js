@@ -1,8 +1,12 @@
 import React from "react"
+import { ThemeContextProvider } from "./Context"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
-    <h1 className="text-2xl font semibold">Portfolio</h1>
+    <ThemeContextProvider>
+      <Navbar />
+    </ThemeContextProvider>
   )
 }
 
