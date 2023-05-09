@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { useTheme, useMenu } from "./../Context"
+import { useTheme, useMenu, useScrollbar } from "./../Context"
 import { Link } from "react-router-dom"
 
 import GreenHexagon from "./../assets/green-hexagon.svg"
@@ -12,6 +12,7 @@ import Menu from "./Menu"
 const Navbar = () => {
     const darkTheme = useTheme()
     const { isMenuOpen } = useMenu()
+    const scrollbarWidth = useScrollbar()
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
     const handleResize = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`${darkTheme ? "bg-dark" : "bg-light"} transition-colors duration-500 flex p-7 w-screen h-[60px] items-center ${isMenuOpen ? "justify-end" : "justify-between"} font-karla`}>
+            <div className={`${darkTheme ? "bg-dark" : "bg-light"} transition-colors duration-500 flex p-7 w-${scrollbarWidth} h-[60px] items-center ${isMenuOpen ? "justify-end" : "justify-between"} font-karla`}>
                 {!isMenuOpen && <div className="flex space-x-2">
                     <img
                         src={`${darkTheme ? MarigoldHexagon : GreenHexagon}`}
