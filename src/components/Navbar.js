@@ -33,7 +33,7 @@ const Navbar = () => {
                     <img
                         src={`${darkTheme ? MarigoldHexagon : GreenHexagon}`}
                         alt="hexagon logo"
-                        className="w-4 transition-all delay-1000"
+                        className="w-4"
                     />
                     <h1 className={`${darkTheme ? "text-light" : "text-dark"} font-semibold`}>Domenico De Blasi</h1>
                 </div>}

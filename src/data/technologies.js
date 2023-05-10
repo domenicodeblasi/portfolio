@@ -41,20 +41,20 @@ export const JavaScript = {
     url: "https://javascript.info/"
 }
 
-export const Webpack = {
-    id: 5,
-    name: "Webpack",
-    icon: webpack_logo,
-    color: "#8DD6F9",
-    url: "https://webpack.js.org/"
-}
-
 export const React = {
-    id: 6,
+    id: 5,
     name: "React",
     icon: react_logo,
     color: "#61DAFB",
     url: "https://react.dev/"
+}
+
+export const Webpack = {
+    id: 6,
+    name: "Webpack",
+    icon: webpack_logo,
+    color: "#8DD6F9",
+    url: "https://webpack.js.org/"
 }
 
 export const Lodash = {
@@ -89,5 +89,5 @@ export const GitHub = {
     url: "https://github.com/"
 }
 
-const technologies = [HTML, CSS, Sass, JavaScript, Webpack, React, Lodash, TailwindCss, Git, GitHub]
+const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub]
 export default technologies

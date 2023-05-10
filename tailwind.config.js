@@ -6,8 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light": "#ede9ec",
-        "dark": "#272727",
+        "light": {
+          DEFAULT: "#ede9ec",
+          100: "#d8cfd6",
+        },
+        "dark": {
+          DEFAULT: "#272727",
+          100: "#373737",
+        },
         "viridian": "#109193",
         "marigold": "#ed9f31",
         "mulberry": "#be4b88",
