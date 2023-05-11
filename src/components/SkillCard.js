@@ -6,8 +6,8 @@ const SkillCard = ({ technology }) => {
     const { name, icon, color, url } = technology
     return (
         <a
-            className={`h-10 w-full max-w-[400px] flex items-center px-4 space-x-4 border-x-[6px] rounded shadow-inner outline outline-1 transition-all duration-500 ${darkTheme ? "outline-dark-100 shadow-dark-100" : "outline-light-100 shadow-light-100"}
-                hover:shadow hover:transition-all duration-500 hover:outline-none ${darkTheme ? "hover:bg-dark-100 hover:scale-[102%]" : "hover:bg-light-100 hover:scale-[102%]"}
+            className={`h-12 w-full max-w-[400px] flex items-center px-4 space-x-4 border-x-[6px] rounded shadow-inner transition-all duration-300 ${darkTheme ? "bg-dark-100 shadow-dark-200" : "bg-light-100 shadow-light-200"}
+                hover:shadow ${darkTheme ? "hover:bg-dark-200 hover:scale-[102%]" : "hover:bg-light-200 hover:scale-[102%]"}
                 md:max-w-[300px]`}
             style={{ borderColor: color }}
             href={url}

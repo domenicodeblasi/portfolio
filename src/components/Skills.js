@@ -1,17 +1,18 @@
 import React from "react"
 import { useTheme } from "../Context"
 import GreenHexagon from "./../assets/green-hexagon.svg"
+import MarigoldHexagon from "./../assets/marigold-hexagon.svg"
 import technologies from "./../data/technologies"
 import SkillCard from "./SkillCard"
 
 const Skills = () => {
     const darkTheme = useTheme()
     return (
-        <section className=" space-y-6">
+        <section className="space-y-6">
             <div className="flex space-x-3">
                 <img
-                    src={GreenHexagon}
-                    alt="green hexagon"
+                    src={darkTheme ? MarigoldHexagon : GreenHexagon}
+                    alt="hexagon"
                     className="w-4"
                 />
                 <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Skills</h2>

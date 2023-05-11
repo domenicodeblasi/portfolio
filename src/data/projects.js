@@ -7,15 +7,15 @@ import cinemilleMobile from "./../assets/projects/cinemille-mobile.png"
 import cinemilleDesktop from "./../assets/projects/cinemille-desktop.png"
 
 const projects = [
-    {
+        {
         id: 1,
-        name: ".counter.",
-        description: "This web app is a counter that can track numbers from -99999 to 99999. You can add or subtract from the number on the screen and reset everything if needed. It's an easy way to keep count of things!",
-        technologies: [HTML, CSS, Sass, JavaScript],
-        desktop_image: counterDesktop,
-        mobile_image: counterMobile,
-        website_url: "https://counter-ddb.netlify.app/",
-        github_url: "https://github.com/domenicodeblasi/counter-js",
+        name: "Multisala CineMille",
+        description: "CineMille is a simple web app that helps you find the latest movies playing at theater. With CineMille, you can quickly view the 12 movies currently on schedule at cinema. Get detailed information on showtimes, and plan your next movie outing with ease. Whether you're a cinephile or just looking for a fun night out at the cinema, CineMille can help you find the perfect film.",
+        technologies: [React, TailwindCss],
+        desktop_image: cinemilleDesktop,
+        mobile_image: cinemilleMobile,
+        website_url: "https://cinemille.netlify.app/",
+        github_url: "https://github.com/domenicodeblasi/multisala-cinemille",
     },
     {
         id: 2,
@@ -29,13 +29,13 @@ const projects = [
     },
     {
         id: 3,
-        name: "Multisala CineMille",
-        description: "CineMille is a simple web app that helps you find the latest movies playing at theater. With CineMille, you can quickly view the 12 movies currently on schedule at cinema. Get detailed information on showtimes, and plan your next movie outing with ease. Whether you're a cinephile or just looking for a fun night out at the cinema, CineMille can help you find the perfect film.",
-        technologies: [React, TailwindCss],
-        desktop_image: cinemilleDesktop,
-        mobile_image: cinemilleMobile,
-        website_url: "https://cinemille.netlify.app/",
-        github_url: "https://github.com/domenicodeblasi/multisala-cinemille",
+        name: ".counter.",
+        description: "This web app is a counter that can track numbers from -99999 to 99999. You can add or subtract from the number on the screen and reset everything if needed. It's an easy way to keep count of things!",
+        technologies: [HTML, CSS, Sass, JavaScript],
+        desktop_image: counterDesktop,
+        mobile_image: counterMobile,
+        website_url: "https://counter-ddb.netlify.app/",
+        github_url: "https://github.com/domenicodeblasi/counter-js",
     },
 ]
 

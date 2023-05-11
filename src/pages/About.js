@@ -16,7 +16,7 @@ const About = () => {
             >
                 <div className="flex flex-col space-y-8 items-center md:w-[80%] lg:max-w-[50%] lg:items-start">
                     <HeroHeadline />
-                    <div className={`space-y-4 ${darkTheme ? "text-light" : "text-dark"}`}>
+                    <div className={`font-karla font-light space-y-4 ${darkTheme ? "text-light" : "text-dark"}`}>
                         <p>I'm Domenico De Blasi, a Junior Front End Developer based in Parma (Italy), who has recently started a journey in this world. I'm an highly motivated learner, with the will to increase my skills. I'm careful to details and I chase perfection in everything I do, with great attention to optimize my time well.</p>
                         <p>As a web developer, my goal is to build challenging web interfaces, combining what I've learned and what I'm learning, always trying to improve the final product.</p>
                         <p>When I'm not in front of a computer screen, probably I'm spending time with friends, playing video games, travelling or listening to some good music.</p>

@@ -8,11 +8,13 @@ module.exports = {
       colors: {
         "light": {
           DEFAULT: "#ede9ec",
-          100: "#d8cfd6",
+          100: "#e2dce1",
+          200: "#d8cfd6",
         },
         "dark": {
           DEFAULT: "#272727",
-          100: "#373737",
+          100: "#292929",
+          200: "#373737",
         },
         "viridian": "#109193",
         "marigold": "#ed9f31",
