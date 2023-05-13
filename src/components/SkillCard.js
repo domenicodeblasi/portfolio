@@ -14,6 +14,7 @@ const SkillCard = ({ technology }) => {
         >
             <img
                 src={icon}
+                alt={`${name}`}
                 className={`w-6 ${darkTheme ? "invert-[100%] sepia-[12%] saturate-[663%] hue-rotate-[275deg] brightness-[98%] contrast-[90%]" : "invert-[10%] sepia-[21%] saturate-[1%] hue-rotate-[314deg] brightness-[125%] contrast-[95%]"}`}
             />
             <h3 className={`font-karla ${darkTheme ? "text-light" : "text-dark"}`}>{name}</h3>

@@ -7,13 +7,10 @@ const Menu = () => {
     const darkTheme = useTheme()
     const { toggleMenu } = useMenu()
     return (
-        <div className={`absolute z-10 h-[calc(100vh-60px)] w-screen p-7 flex flex-col justify-between ${darkTheme ? "bg-dark" : "bg-light"} transition-colors duration-500`}>
+        <div className={`fixed z-10 h-[calc(100dvh-60px)] top-[60px] w-screen p-7 flex flex-col justify-between ${darkTheme ? "bg-dark" : "bg-light"} transition-colors duration-500`}>
             <ul className={`flex flex-col space-y-10 font-semibold text-3xl mt-10 ${darkTheme ? "text-light" : "text-dark"}`}>
                 <li onClick={toggleMenu}>
                     <Link to="/">Home</Link>
-                </li>
-                <li onClick={toggleMenu}>
-                    <Link to="/">Projects</Link>
                 </li>
                 <li onClick={toggleMenu}>
                     <Link to="/about">About</Link>

@@ -10,9 +10,9 @@ const About = () => {
     const darkTheme = useTheme()
     const scrollbarWidth = useScrollbar()
     return (
-        <main className={`px-7 w-[calc(100vw-${scrollbarWidth})] transition-colors duration-500 space-y-8 ${darkTheme ? "bg-dark" : "bg-light"}`}>
+        <main className={`relative top-[60px] px-7 w-[calc(100vw-${scrollbarWidth})] transition-colors duration-500 space-y-8 ${darkTheme ? "bg-dark" : "bg-light"}`}>
             <section className={`w-full flex flex-col items-center pt-10 space-y-8
-                lg:pt-0 lg:flex-row lg:justify-center lg:h-[calc(100vh-60px)] lg:space-x-8`}
+                lg:pt-0 lg:flex-row lg:justify-center lg:h-[calc(100dvh-60px)] lg:space-x-8`}
             >
                 <div className="flex flex-col space-y-8 items-center md:w-[80%] lg:max-w-[50%] lg:items-start">
                     <HeroHeadline />

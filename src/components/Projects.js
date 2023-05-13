@@ -17,7 +17,7 @@ const Projects = () => {
                 />
                 <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Projects</h2>
             </div>
-            <div className=" w-full flex flex-col items-center px-8 gap-y-12">
+            <div className="w-full flex flex-col items-center pl-8 gap-y-12 xl:gap-y-16">
                 {projects.map(project => {
                     const { id } = project
                     return (

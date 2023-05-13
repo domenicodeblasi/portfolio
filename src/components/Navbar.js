@@ -28,7 +28,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`${darkTheme ? "bg-dark" : "bg-light"} transition-colors duration-500 flex p-7 w-${scrollbarWidth} h-[60px] items-center ${isMenuOpen ? "justify-end" : "justify-between"} font-karla`}>
+            <div className={`${darkTheme ? "bg-dark" : "bg-light"} fixed z-20 transition-colors duration-500 flex p-7 w-screen h-[60px] items-center ${!isMenuOpen && "shadow-md shadow-[rgba(0,0,0,0.15)]"} ${isMenuOpen ? "justify-end" : "justify-between"} font-karla`}>
                 {!isMenuOpen && <div className="flex space-x-2">
                     <img
                         src={`${darkTheme ? MarigoldHexagon : GreenHexagon}`}
@@ -44,7 +44,6 @@ const Navbar = () => {
                         <DarkLightButton />
                         <ul className={`flex space-x-10 ${darkTheme ? "text-light" : "text-dark"}`}>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/">Projects</Link></li>
                             <li><Link to="/about">About</Link></li>
                         </ul>
                     </>
