@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { useTheme, useMenu, useScrollbar } from "./../Context"
+import { useTheme, useMenu } from "./../Context"
 import { Link } from "react-router-dom"
 
 import GreenHexagon from "./../assets/green-hexagon.svg"
@@ -12,7 +12,6 @@ import Menu from "./Menu"
 const Navbar = () => {
     const darkTheme = useTheme()
     const { isMenuOpen } = useMenu()
-    const scrollbarWidth = useScrollbar()
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
     const handleResize = () => {

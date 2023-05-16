@@ -2,6 +2,7 @@ import React from "react"
 import { useTheme } from "../Context"
 import GreenHexagon from "./../assets/green-hexagon.svg"
 import MarigoldHexagon from "./../assets/marigold-hexagon.svg"
+import resume from "./../assets/resume_DomenicoDeBlasi.pdf"
 
 const Contact = () => {
     const darkTheme = useTheme()
@@ -26,7 +27,16 @@ const Contact = () => {
                         LinkedIn
                     </a>
                 </li>
-                <li className="cursor-pointer hover:font-semibold transition-all duration-200">Resume</li>
+                <li className="cursor-pointer hover:font-semibold transition-all duration-200">
+                    <a
+                        href={resume}
+                        type="application/pdf"
+                        target="_blank"
+                        rel="noreferrer" 
+                    >
+                        Resume
+                    </a>
+                </li>
             </ul>
         </section>
     )
