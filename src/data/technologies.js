@@ -8,6 +8,7 @@ import lodash_logo from "./../assets/technologies/lodash.svg"
 import tailwindcss_logo from "./../assets/technologies/tailwindcss.svg" 
 import git_logo from "./../assets/technologies/git.svg" 
 import github_logo from "./../assets/technologies/github.svg" 
+import axios_logo from "./../assets/technologies/axios.svg" 
 
 export const HTML = {
     id: 1,
@@ -89,5 +90,13 @@ export const GitHub = {
     url: "https://github.com/"
 }
 
-const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub]
+export const Axios = {
+    id: 11,
+    name: "Axios",
+    icon: axios_logo,
+    color: "#5A29E4",
+    url: "https://axios-http.com/"
+}
+
+const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub, Axios]
 export default technologies
