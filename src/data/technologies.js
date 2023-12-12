@@ -5,10 +5,12 @@ import javascript_logo from "./../assets/technologies/javascript.svg"
 import webpack_logo from "./../assets/technologies/webpack.svg" 
 import react_logo from "./../assets/technologies/react.svg" 
 import lodash_logo from "./../assets/technologies/lodash.svg" 
-import tailwindcss_logo from "./../assets/technologies/tailwindcss.svg" 
+import tailwindCss_logo from "./../assets/technologies/tailwindcss.svg" 
 import git_logo from "./../assets/technologies/git.svg" 
 import github_logo from "./../assets/technologies/github.svg" 
-import axios_logo from "./../assets/technologies/axios.svg" 
+import axios_logo from "./../assets/technologies/axios.svg"
+import leaflet_logo from "./../assets/technologies/leaflet.svg"
+import reactRouter_logo from "./../assets/technologies/reactrouter.svg"
 
 export const HTML = {
     id: 1,
@@ -69,7 +71,7 @@ export const Lodash = {
 export const TailwindCss = {
     id: 8,
     name: "Tailwind CSS",
-    icon: tailwindcss_logo,
+    icon: tailwindCss_logo,
     color: "#06B6D4",
     url: "https://tailwindcss.com/"
 }
@@ -98,5 +100,21 @@ export const Axios = {
     url: "https://axios-http.com/"
 }
 
-const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub, Axios]
+export const Leaflet = {
+    id: 12,
+    name: "Leaflet",
+    icon: leaflet_logo,
+    color: "#199900",
+    url: "https://leafletjs.com/"
+}
+
+export const ReactRouter = {
+    id: 13,
+    name: "React Router",
+    icon: reactRouter_logo,
+    color: "#CA4245",
+    url: "https://reactrouter.com/en/main"
+}
+
+const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub, Axios, Leaflet, ReactRouter]
 export default technologies
