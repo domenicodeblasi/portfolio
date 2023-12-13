@@ -14,7 +14,7 @@ const projects = [
     {
         id: 1,
         name: "Conscious Carbon",
-        description: "Conscious Carbon is a web app that provides comprehensive monitoring of carbon monoxide (CO) emissions. It filters data by country, geographical coordinates, and allows users to explore information within a selected time period.",
+        description: "Conscious Carbon è un'applicazione web che offre un quadro completo delle emissioni di monossido di carbonio (CO). Filtra i dati per paese, coordinate geografiche e consente agli utenti di esplorare le informazioni all'interno di un periodo di tempo selezionato.",
         technologies: [React, JavaScript, CSS, Leaflet, ReactRouter],
         desktop_image: consciousCarbonDesktop,
         mobile_image: consciousCarbonMobile,
@@ -24,7 +24,7 @@ const projects = [
     {
         id: 2,
         name: "The New York Times Clone",
-        description: "This web app is a replica of the New York Times homepage. It faithfully reproduces the layout and content of the original site, with an additional feature that allows users to bookmark their favorite news articles.",
+        description: "Questa applicazione web è una replica della homepage del New York Times. Riproduce fedelmente la struttura e i contenuti del sito originale, con una funzionalità aggiuntiva che consente agli utenti di aggiungere ai preferiti gli articoli e le notizie che più apprezzano.",
         technologies: [React, JavaScript, TailwindCss, Axios, ReactRouter],
         desktop_image: NYTDesktop,
         mobile_image: NYTMobile,
@@ -34,7 +34,7 @@ const projects = [
     {
         id: 3,
         name: "Multisala CineMille",
-        description: "CineMille is a simple web app that helps you find the latest movies playing at theater. With CineMille, you can quickly view the 12 movies currently on schedule at cinema. Get detailed information on showtimes, and plan your next movie outing with ease. Whether you're a cinephile or just looking for a fun night out at the cinema, CineMille can help you find the perfect film.",
+        description: "CineMille è una semplice applicazione web che ti aiuta a trovare gli ultimi film in proiezione al cinema, con la quale puoi visualizzare rapidamente i 12 film attualmente in programmazione nelle sale. Ottieni informazioni dettagliate sugli orari delle proiezioni e pianifica facilmente la tua prossima uscita al cinema. Che tu sia un appassionato di cinema o semplicemente in cerca di una divertente serata al cinema, CineMille può aiutarti a trovare il film perfetto.",
         technologies: [React, JavaScript, TailwindCss, ReactRouter],
         desktop_image: cinemilleDesktop,
         mobile_image: cinemilleMobile,
@@ -44,7 +44,7 @@ const projects = [
     {
         id: 4,
         name: "nextbook",
-        description: "This website lets you find books by searching for category or subject. It gives you useful information about each book, like what it looks like and what it's about. The website is easy to use and helps you discover new books that you might like. Whether you love to read or just want to find something new, this website can help you find the right book for you.",
+        description: "nextbook è un sito web che ti permette di trovare libri cercando per categoria o argomento. Fornisce informazioni utili su ciascun libro, come la copertina e la trama. Il sito è facile da usare e ti aiuta a scoprire nuovi libri che potrebbero interessarti. Se ami leggere o desideri semplicemente trovare qualcosa di nuovo, questo sito può aiutarti a trovare il libro giusto per te.",
         technologies: [HTML, Sass, JavaScript, Webpack, Lodash],
         desktop_image: nextbookDesktop,
         mobile_image: nextbookMobile,
@@ -54,7 +54,7 @@ const projects = [
     {
         id: 5,
         name: ".counter.",
-        description: "This web app is a counter that can track numbers from -99999 to 99999. You can add or subtract from the number on the screen and reset everything if needed. It's an easy way to keep count of things!",
+        description: "Questa applicazione web è un counter in grado di mandare a display numeri da -99999 a 99999. Puoi aggiungere o sottrarre al numero visualizzato e resettare tutto se necessario. È un modo semplice per tenere il conto di qualsiasi cosa!",
         technologies: [HTML, CSS, Sass, JavaScript],
         desktop_image: counterDesktop,
         mobile_image: counterMobile,

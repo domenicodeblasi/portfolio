@@ -17,9 +17,9 @@ const About = () => {
                 <div className="flex flex-col space-y-8 items-center md:w-[80%] lg:max-w-[50%] lg:items-start">
                     <HeroHeadline />
                     <div className={`font-karla font-light space-y-4 ${darkTheme ? "text-light" : "text-dark"}`}>
-                        <p>I'm Domenico De Blasi, a Junior Front End Developer based in Parma (Italy), who has recently started a journey in this world. I'm an highly motivated learner, with the will to increase my skills. I'm careful to details and I chase perfection in everything I do, with great attention to optimize my time well.</p>
-                        <p>As a web developer, my goal is to build challenging web interfaces, combining what I've learned and what I'm learning, always trying to improve the final product.</p>
-                        <p>When I'm not in front of a computer screen, probably I'm spending time with friends, playing video games, travelling or listening to some good music.</p>
+                        <p>👨🏻‍💻 Mi chiamo Domenico De Blasi, sono uno Junior Front End Developer con base a Parma. Ho recentemente completato un Master in Sviluppo Web Front End sulla piattaforma di start2impact University, un'esperienza formativa che mi ha notevolmente arricchito di competenze. Sono un apprendista, desideroso di crescere quanto più possibile e determinato a raggiungere l'eccellenza in ogni aspetto del mio lavoro. La dedizione costante e la voglia di mettermi sempre in gioco sono il motore che mi spinge ad entusiasmarmi nel contribuire al mondo dello sviluppo web.</p>
+                        <p>🚀 Come sviluppatore web, il mio obiettivo è quello di progettare interfacce web coinvolgenti, combinando ciò che ho imparato e ciò che ogni giorno apprendo al fine di migliorare il prodotto finale per l'utente.</p>
+                        <p>🌴 Quando non mi trovo davanti al computer, è probabile che io stia trascorrendo del tempo con i miei amici, condividendo momenti di compagnia. In alternativa, potrei trovarmi immerso nei videogiochi, o in viaggi alla scoperta di nuovi luoghi e culture, oppure semplicemente potrei essere seduto a godermi della buona musica.</p>
                     </div>
                 </div>
                 <img

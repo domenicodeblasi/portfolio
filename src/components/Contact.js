@@ -14,7 +14,7 @@ const Contact = () => {
                     alt="green hexagon"
                     className="w-4"
                 />
-                <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Contact</h2>
+                <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Contatti</h2>
             </div>
             <ul className={`flex flex-col w-full items-center pb-8 px-8 gap-1 font-karla ${darkTheme ? "text-light" : "text-dark"}`}>
                 <li className="cursor-pointer hover:font-semibold transition-all duration-200">
@@ -34,7 +34,7 @@ const Contact = () => {
                         target="_blank"
                         rel="noreferrer" 
                     >
-                        Resume
+                        CV
                     </a>
                 </li>
             </ul>

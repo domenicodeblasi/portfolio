@@ -74,7 +74,7 @@ const Project = ({ project }) => {
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                 >
-                    <h4 className="text-light font-semibold">View Project</h4>
+                    <h4 className="text-light font-semibold">Visualizza il progetto</h4>
                     <div className="flex gap-x-6">
                         <a href={website_url}>
                             <EyeIcon />

@@ -15,7 +15,7 @@ const Projects = () => {
                     alt="hexagon"
                     className="w-4"
                 />
-                <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Projects</h2>
+                <h2 className={`text-2xl font-semibold font-karla ${darkTheme ? "text-light" : "text-dark"}`}>Progetti</h2>
             </div>
             <div className="w-full flex flex-col items-center pl-8 gap-y-12 xl:gap-y-16">
                 {projects.map(project => {
