@@ -11,6 +11,8 @@ import github_logo from "./../assets/technologies/github.svg"
 import axios_logo from "./../assets/technologies/axios.svg"
 import leaflet_logo from "./../assets/technologies/leaflet.svg"
 import reactRouter_logo from "./../assets/technologies/reactrouter.svg"
+import php_logo from "./../assets/technologies/php.svg"
+import mysql_logo from "./../assets/technologies/mysql.svg"
 
 export const HTML = {
     id: 1,
@@ -116,5 +118,21 @@ export const ReactRouter = {
     url: "https://reactrouter.com/en/main"
 }
 
-const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, Webpack, Lodash, Git, GitHub, Axios, Leaflet, ReactRouter]
+export const PHP = {
+    id: 14,
+    name: "PHP",
+    icon: php_logo,
+    color: "#777BB4",
+    url: "https://www.php.net/"
+}
+
+export const MySQL = {
+    id: 15,
+    name: "MySQL",
+    icon: mysql_logo,
+    color: "#4479A1",
+    url: "https://www.mysql.com/"
+}
+
+const technologies = [HTML, CSS, JavaScript, React, TailwindCss, Sass, PHP, MySQL, Git, GitHub, Webpack, Lodash, Axios, Leaflet, ReactRouter]
 export default technologies
